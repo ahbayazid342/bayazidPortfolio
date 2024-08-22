@@ -1,44 +1,38 @@
 import React from "react";
-import { motion } from "framer-motion";
 import "./CompetitiveProgrammingAchievements.scss";
 import { AppWrap, MotionWrap } from "../../wrapper";
 
-import codeforces from "../../assets/codeforces.png";
-import codechef from "../../assets/codechef.png";
-import leetcode from "../../assets/leetcode.png";
-import stopstalk from "../../assets/stopstalk.png";
+// const codingProfiles = [
+//   {
+//     name: "Codeforces",
+//     bgColor: "#1F8ACB",
+//     icon: codeforces,
+//     link: "https://codeforces.com/profile/Mahim",
+//   },
+//   {
+//     name: "CodeChef",
+//     bgColor: "#5B4638",
+//     icon: codechef,
+//     link: "https://www.codechef.com/users/mahim47",
+//   },
+//   {
+//     name: "LeetCode",
+//     bgColor: "#FFA116",
+//     icon: leetcode,
+//     link: "https://leetcode.com/u/Mahim47/",
+//   },
+//   {
+//     name: "StopStalk",
+//     bgColor: "#FFA116",
+//     icon: stopstalk,
+//     link: "https://www.stopstalk.com/user/profile/Mahim",
+//   },
+// ];
 
-const codingProfiles = [
-  {
-    name: "Codeforces",
-    bgColor: "#1F8ACB",
-    icon: codeforces,
-    link: "https://codeforces.com/profile/Mahim",
-  },
-  {
-    name: "CodeChef",
-    bgColor: "#5B4638",
-    icon: codechef,
-    link: "https://www.codechef.com/users/mahim47",
-  },
-  {
-    name: "LeetCode",
-    bgColor: "#FFA116",
-    icon: leetcode,
-    link: "https://leetcode.com/u/Mahim47/",
-  },
-  {
-    name: "StopStalk",
-    bgColor: "#FFA116",
-    icon: stopstalk,
-    link: "https://www.stopstalk.com/user/profile/Mahim",
-  },
-];
-
-const containerVariants = {
-  hidden: { opacity: 0, scale: 0.95 },
-  visible: { opacity: 1, scale: 1 },
-};
+// const containerVariants = {
+//   hidden: { opacity: 0, scale: 0.95 },
+//   visible: { opacity: 1, scale: 1 },
+// };
 
 const CompetitiveProgrammingAchievements = () => {
   return (
