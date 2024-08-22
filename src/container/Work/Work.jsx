@@ -9,7 +9,7 @@ import "./Work.scss";
 
 import biofloc from "../../assets/biofloc.PNG";
 import objectdetection from "../../assets/objectdetection.png";
-import portfolio from "../../assets/portfolio.png";
+import portfolio from "../../assets/portfolioLandingPage.png";
 import ai from "../../assets/ai.png";
 
 // Hardcoded portfolio data with the same image
