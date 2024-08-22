@@ -29,23 +29,24 @@ import patent from "../../assets/patent.png";
 import docker from "../../assets/docker.png";
 import websocket from "../../assets/websocket.png";
 import rabbit from "../../assets/rabbit.png";
+import postgresql from "../../assets/postgresql.png";
+import angular from "../../assets/angular.png";
 
 const experiences = [
   {
-    year: "5 April 2023 - Present",
+    year: "1 Nov 2023 - Present",
     works: [
       {
-        name: "Software Engineer",
-        company: "Samsung R&D Institute Bangladesh",
+        name: "Associate Software Engineer",
+        company: "Kaz Software",
         desc: `<br>
           <ul>
-            <li>Responsible for working on an internal web-based project designed to manage networking data.</li>
+            <li>Responsible for working on an internal web-based project designed.</li>
             <li>Analyze feature requirements, design and develop features, and fix bugs.</li>
-            <li>Utilize Spring Boot, React, and MongoDB to build a system with 7 modules handling 3G, 4G, and 5G data.</li>
-            <li>Implement RabbitMQ for seamless inter-module communication.</li>
             <li>Incorporate WebSocket for real-time analytics in the Data Integration and Management Studio (DIMS) project.</li>
-            <li>Involved in developing a Knowledge Graph RAG (Retrieve and Generate) interface to enhance management and relevance of private data.</li>
-            <li>Contribute to patent development focused on advancements in camera photography and generative AI.</li>
+            <li>Utilized Redux for effective state management, ensuring consistent data flow and reducing the complexity of application state </li>
+            <li> Developed RESTful APIs and integrated them with frontend frameworks, facilitating smooth communication between the frontend and backend, and ensuring data integrity and security. </li>
+            <li>Worked closely with designers, product managers, and other developers in an Agile environment to deliver projects on time, ensuring all technical and business requirements were met.</li>
           </ul>
         `,
       },
@@ -55,9 +56,8 @@ const experiences = [
     year: "Dec 2021 - April 2023",
     works: [
       {
-        name: "Teaching Assistant (Competitive Programming Trainer, Class Representative)",
-        company:
-          "Department of Computer Science & Engineering, Jahangirnagar University",
+        name: "Teaching Assistant (Competitive Programming Trainer)",
+        company: "Department of Computer Science & Engineering, Jahangirnagar University",
         desc: `<br>
           <ul>
             <li>Trained junior students in C, C++, data structures, and algorithms for programming contests.</li>
@@ -72,11 +72,6 @@ const experiences = [
 
 const skills = [
   {
-    name: "Spring Boot",
-    bgColor: "#F7DF1E",
-    icon: springboot,
-  },
-  {
     name: "React",
     bgColor: "#61DAFB",
     icon: react,
@@ -87,19 +82,24 @@ const skills = [
     icon: next,
   },
   {
+    name: "Angular.js",
+    bgColor: "#61DAFB",
+    icon: angular,
+  },
+  {
     name: "MongoDB",
     bgColor: "#61DAFB",
     icon: mongo,
   },
   {
+    name: "PostgreSQL",
+    bgColor: "#61DAFB",
+    icon: postgresql,
+  },
+  {
     name: "MySQL",
     bgColor: "#61DAFB",
     icon: sql,
-  },
-  {
-    name: "Docker",
-    bgColor: "#61DAFB",
-    icon: docker,
   },
   {
     name: "C",
@@ -153,46 +153,14 @@ const skills = [
     icon: redux,
   },
   {
-    name: "WebSocket",
-    bgColor: "#61DAFB",
-    icon: websocket,
-  },
-  {
-    name: "Rabbit MQ",
-    bgColor: "#61DAFB",
-    icon: rabbit,
-  },
-  {
     name: "Android",
     bgColor: "#61DAFB",
     icon: android,
   },
   {
-    name: "LLM",
-    bgColor: "#61DAFB",
-    icon: llama,
-  },
-  {
     name: "DSA",
     bgColor: "#61DAFB",
     icon: dsa,
-  },
-  {
-    name: "GenerativeAI",
-    bgColor: "#61DAFB",
-    icon: GenerativeAI,
-  },
-
-  
-  {
-    name: "Gradio",
-    bgColor: "#61DAFB",
-    icon: gradio,
-  },
-  {
-    name: "Patent",
-    bgColor: "#61DAFB",
-    icon: patent,
   },
 ];
 
@@ -238,10 +206,7 @@ const Skills = () => {
                     >
                       <h2 className="bold-text">{work.name}</h2>
                       <h4>{work.company}</h4>
-                      <div
-                        dangerouslySetInnerHTML={{ __html: work.desc }}
-                        className="p-text"
-                      />
+                      <div dangerouslySetInnerHTML={{ __html: work.desc }} className="p-text" />
                     </motion.div>
                     {/* <Tooltip
                       id={work.name}
@@ -262,8 +227,4 @@ const Skills = () => {
   );
 };
 
-export default AppWrap(
-  MotionWrap(Skills, "app__skills"),
-  "skills",
-  "app__whitebg"
-);
+export default AppWrap(MotionWrap(Skills, "app__skills"), "skills", "app__whitebg");
