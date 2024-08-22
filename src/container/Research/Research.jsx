@@ -33,75 +33,76 @@ const Research = () => {
   };
 
   return (
-    <motion.div
-      className="research-container"
-      initial={{ opacity: 0, x: -100 }}
-      animate={{ opacity: 1, x: 0 }}
-      transition={{ duration: 1, ease: "easeOut" }}
-    >
-      <h2 className="head-text">
-        Research & <span>Publications</span>
-      </h2>
+    // <motion.div
+    //   className="research-container"
+    //   initial={{ opacity: 0, x: -100 }}
+    //   animate={{ opacity: 1, x: 0 }}
+    //   transition={{ duration: 1, ease: "easeOut" }}
+    // >
+    //   <h2 className="head-text">
+    //     Research & <span>Publications</span>
+    //   </h2>
 
-      <motion.div
-        className="publications-list"
-        initial="hidden"
-        animate="visible"
-        variants={{
-          hidden: { opacity: 0, scale: 0.9 },
-          visible: {
-            opacity: 1,
-            scale: 1,
-            transition: {
-              delayChildren: 0.5,
-              staggerChildren: 0.3,
-            },
-          },
-        }}
-      >
-        {publications.map((publication, index) => (
-          <motion.div
-            className="publication-item"
-            key={index}
-            whileHover={{ scale: 1.05 }}
-            variants={{
-              hidden: { opacity: 0, y: 100 },
-              visible: { opacity: 1, y: 0 },
-            }}
-            transition={{ duration: 0.8, ease: "easeOut" }}
-          >
-            <h3 className="publication-title">{publication.title}</h3>
-            <p className="publication-authors">{publication.authors}</p>
-            <p className="publication-details">{publication.details}</p>
-            {publication.status && (
-              <p
-                className={`publication-status ${publication.status
-                  .replace(" ", "-")
-                  .toLowerCase()}`}
-              >
-                {publication.status === "published"
-                  ? "Published"
-                  : "In Progress"}{" "}
-                {statusIcons[publication.status]}
-              </p>
-            )}
-            {publication.abstract && (
-              <p className="publication-abstract">{publication.abstract}</p>
-            )}
-            {publication.doi && (
-              <a
-                href={publication.doi}
-                className="publication-doi"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                View Publication DOI
-              </a>
-            )}
-          </motion.div>
-        ))}
-      </motion.div>
-    </motion.div>
+    //   <motion.div
+    //     className="publications-list"
+    //     initial="hidden"
+    //     animate="visible"
+    //     variants={{
+    //       hidden: { opacity: 0, scale: 0.9 },
+    //       visible: {
+    //         opacity: 1,
+    //         scale: 1,
+    //         transition: {
+    //           delayChildren: 0.5,
+    //           staggerChildren: 0.3,
+    //         },
+    //       },
+    //     }}
+    //   >
+    //     {publications.map((publication, index) => (
+    //       <motion.div
+    //         className="publication-item"
+    //         key={index}
+    //         whileHover={{ scale: 1.05 }}
+    //         variants={{
+    //           hidden: { opacity: 0, y: 100 },
+    //           visible: { opacity: 1, y: 0 },
+    //         }}
+    //         transition={{ duration: 0.8, ease: "easeOut" }}
+    //       >
+    //         <h3 className="publication-title">{publication.title}</h3>
+    //         <p className="publication-authors">{publication.authors}</p>
+    //         <p className="publication-details">{publication.details}</p>
+    //         {publication.status && (
+    //           <p
+    //             className={`publication-status ${publication.status
+    //               .replace(" ", "-")
+    //               .toLowerCase()}`}
+    //           >
+    //             {publication.status === "published"
+    //               ? "Published"
+    //               : "In Progress"}{" "}
+    //             {statusIcons[publication.status]}
+    //           </p>
+    //         )}
+    //         {publication.abstract && (
+    //           <p className="publication-abstract">{publication.abstract}</p>
+    //         )}
+    //         {publication.doi && (
+    //           <a
+    //             href={publication.doi}
+    //             className="publication-doi"
+    //             target="_blank"
+    //             rel="noopener noreferrer"
+    //           >
+    //             View Publication DOI
+    //           </a>
+    //         )}
+    //       </motion.div>
+    //     ))}
+    //   </motion.div>
+    // </motion.div>
+    <></>
   );
 };
 

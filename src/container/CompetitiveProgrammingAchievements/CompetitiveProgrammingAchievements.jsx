@@ -43,10 +43,9 @@ const containerVariants = {
 const CompetitiveProgrammingAchievements = () => {
   return (
     <>
-      <h2 className="head-text">
+      {/* <h2 className="head-text">
         Competitive Programming <span>Achievements</span>
       </h2>
-      {/* <h2 className="head-text">Competitive Programming Achievements</h2> */}
       <motion.div
         className="app__competitive-programming-achievements"
         variants={containerVariants}
@@ -225,7 +224,7 @@ const CompetitiveProgrammingAchievements = () => {
             Participated in Codegoda Programming Competition 2022 by Agoda.
           </li>
         </ul>
-      </motion.div>
+      </motion.div> */}
     </>
   );
 };
