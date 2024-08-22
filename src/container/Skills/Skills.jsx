@@ -6,7 +6,6 @@ import { AppWrap, MotionWrap } from "../../wrapper";
 import "./Skills.scss";
 
 import react from "../../assets/react.png";
-import springboot from "../../assets/springboot.png";
 import cpp from "../../assets/cpp.png";
 import git from "../../assets/git.png";
 import python from "../../assets/python.png";
@@ -14,23 +13,17 @@ import redux from "../../assets/redux.png";
 import typescript from "../../assets/typescript.png";
 import html from "../../assets/html.png";
 import javascript from "../../assets/javascript.png";
-import llama from "../../assets/llama.png";
-import GenerativeAI from "../../assets/reduxdd.png";
 import java from "../../assets/java.png";
 import mongo from "../../assets/mongo.png";
 import sql from "../../assets/sql.png";
 import next from "../../assets/next.png";
 import android from "../../assets/android.png";
-import gradio from "../../assets/gradio.png";
 import dsa from "../../assets/dsa.png";
 import c from "../../assets/c.png";
 import css from "../../assets/css.png";
-import patent from "../../assets/patent.png";
-import docker from "../../assets/docker.png";
-import websocket from "../../assets/websocket.png";
-import rabbit from "../../assets/rabbit.png";
 import postgresql from "../../assets/postgresql.png";
 import angular from "../../assets/angular.png";
+import dotnet from "../../assets/dotnet.png";
 
 const experiences = [
   {
@@ -100,6 +93,11 @@ const skills = [
     name: "MySQL",
     bgColor: "#61DAFB",
     icon: sql,
+  },
+  {
+    name: ".NET",
+    bgColor: "#61DAFB",
+    icon: dotnet,
   },
   {
     name: "C",
