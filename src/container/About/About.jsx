@@ -6,8 +6,8 @@ import "./About.scss";
 
 import img1 from "../../assets/education.png";
 import img2 from "../../assets/SW.jpg";
-import img3 from "../../assets/research.png";
-import img4 from "../../assets/icpc.png";
+import img3 from "../../assets/problemSolving.jpg";
+import img4 from "../../assets/hobby.jpg";
 
 const abouts = [
   {
@@ -19,19 +19,19 @@ const abouts = [
   {
     title: "Software Engineer",
     description:
-      "As a Software Engineer at Samsung R&D Institute Bangladesh, I work on an internal web-based project that manages networking data using <strong>Spring Boot, React, and MongoDB</strong>. This project includes seven modules designed to handle 3G, 4G, and 5G data. RabbitMQ facilitates inter-module communication, while WebSocket enables real-time analytics. Additionally, I am also working on a separate project involving a <strong>Knowledge Graph RAG interface</strong> to enhance the retrieval and generation of information for private data. I have also contributed to <strong>patent</strong> development for Samsung, aligning business objectives with innovative solutions.",
+      "As a Software Engineer at Kaz Software, Dhaka, Bangladesh, I work on an internal web-based project using <strong> React, Angular, and MongoDB, PostgreSQL</strong>. I am working on <strong> P1ston team  as a Front-End developer</strong> that is modernizes the industrial supply chain by developing software that streamlines information flow and enhances decision-making.",
     imgUrl: img2,
   },
   {
-    title: "Research",
+    title: "Problem Solver",
     description:
-      "In my research, I focus on making large language models more efficient and practical by exploring innovative techniques like model <strong>quantization</strong> and <strong>LoRA</strong> (Low-Rank Adaptation) and Knowledge Graph <strong>RAG</strong>. My goal is to enhance how these models perform, making them more useful for both private and public data in real-world applications. I have been working with the <strong>LLaMA 2</strong> and <strong>LLaMA 3</strong> models to develop and test proof-of-concept solutions, pushing the boundaries of what these models can achieve. I’m also involved in developing patents related to <strong>camera photography (enhance photo quality)</strong> using <strong>generative AI</strong>. This work is about pushing the envelope in how we capture and create images with higher quality details, blending cutting-edge technology with creative solutions.",
+      "I am a dedicated <strong> problem solver </strong> with extensive experience across various competitive programming platforms, including <strong> Codeforces, AtCoder, CodeChef, and LeetCode </strong>. I have successfully tackled numerous challenges, consistently improving my skills and ranking. My approach to problem-solving is rooted in <strong> analytical thinking, algorithmic efficiency, and a deep understanding of data structures </strong>. I am passionate about learning and growing in the field of competitive programming, always striving to stay ahead of the curve and apply my knowledge to real-world scenarios.",
     imgUrl: img3,
   },
   {
-    title: "Competitive Programmer",
+    title: "Hobby",
     description:
-      'I have competed in ICPC Dhaka Regional prelims for <strong>2021-22, 2022-23, and 2023-24</strong> with teams JU_NoName, JU_3AngryMen, and JU_Metamask. I ranked <strong>87th</strong> in NCPC 2023 prelims and <strong>146th</strong> in the onsite contest with team JU_Anirbaaan. Notable achievements include <strong>16th</strong> in the MBSTU Inter Department Programming Contest 2021 with team JU_darkMatter and a <strong>Bronze Medal</strong> in the research based University Physics Competition 2021.My highest ratings are <strong>1568 on Codeforces</strong> (Specialist, handle: <a href="https://codeforces.com/profile/Mahim" target="_blank" rel="noopener noreferrer">Mahim</a>) and <strong>1916 on CodeChef</strong> (4*, handle: <a href="https://www.codechef.com/users/mahim47" target="_blank" rel="noopener noreferrer">mahim47</a>). I’ve participated in over 180 online and 10 onsite contests, solving 1500+ problems (profile: <a href="https://www.stopstalk.com/user/profile/Mahim" target="_blank" rel="noopener noreferrer">Mahim</a>). I also organized and judged programming contests at Jahangirnagar University.',
+      "I am passionate about sports, with a particular interest in <strong> Football and Cricket </strong>. On the football field, I enjoy the fast-paced action and the teamwork required to succeed. In cricket, I take pride in being an <strong> all-rounder </strong>, with strong skills both as a batter and a bowler. Whether it iss hitting runs or taking wickets, I relish the challenge and strategy involved in every game. Playing these sports keeps me physically active and sharpens my ability to think quickly and work as part of a team. Beyond the field, these experiences have also taught me valuable lessons in leadership, resilience, and perseverance.",
     imgUrl: img4,
   },
 ];
