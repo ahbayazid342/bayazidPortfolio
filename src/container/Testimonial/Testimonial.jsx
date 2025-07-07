@@ -44,7 +44,7 @@ const testimonials = [
   },
   {
     name: "Md. Hannan Hossain",
-    mail: "maruf_csdu@yahoo.com",
+    mail: "hannan@kaz-software.com",
     company: "Principal Software Engineer, KAZ Software Limited",
     feedback:
       "Working with Bayazid has been a remarkable experience. His technical expertise and problem-solving skills are top-notch. Bayazid approaches each challenge with enthusiasm and a unique perspective, consistently delivering high-quality results. His commitment and innovative thinking make him an invaluable member of our team (Artisan) at KAZ Software Limited.",

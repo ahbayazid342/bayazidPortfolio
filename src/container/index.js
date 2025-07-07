@@ -5,7 +5,6 @@ import Skills from './Skills/Skills';
 import Research from './Research/Research';
 import Testimonial from './Testimonial/Testimonial';
 import Work from './Work/Work';
-import CompetitiveProgrammingAchievements from './CompetitiveProgrammingAchievements/CompetitiveProgrammingAchievements';
 import Certificates from './Certificates/Certificates';
 
 export {
@@ -13,7 +12,6 @@ export {
   Footer,
   Header,
   Skills,
-  CompetitiveProgrammingAchievements,
   Research,
   Testimonial,
   Certificates,

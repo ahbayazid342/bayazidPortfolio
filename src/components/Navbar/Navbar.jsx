@@ -13,7 +13,7 @@ const Navbar = () => {
         {/* future work */}
       </div>
       <ul className="app__navbar-links">
-        {["home", "about", "skills", "achievements", "projects", "contact"].map((item) => (
+        {["home", "about", "skills", "projects", "contact"].map((item) => (
           <li className="app__flex p-text" key={`link-${item}`}>
             <div />
             <a href={`#${item}`}>{item}</a>
@@ -28,7 +28,7 @@ const Navbar = () => {
           <motion.div whileInView={{ x: [300, 0] }} transition={{ duration: 0.85, ease: "easeOut" }}>
             <HiX onClick={() => setToggle(false)} />
             <ul>
-              {["home", "about", "skills", "achievements", "research", "projects", "contact"].map((item) => (
+              {["home", "about", "skills", "research", "projects", "contact"].map((item) => (
                 <li key={item}>
                   <a href={`#${item}`} onClick={() => setToggle(false)}>
                     {item}

@@ -1,7 +1,3 @@
-import React from "react";
-import "./CompetitiveProgrammingAchievements.scss";
-import { AppWrap, MotionWrap } from "../../wrapper";
-
 // const codingProfiles = [
 //   {
 //     name: "Codeforces",
@@ -34,10 +30,11 @@ import { AppWrap, MotionWrap } from "../../wrapper";
 //   visible: { opacity: 1, scale: 1 },
 // };
 
-const CompetitiveProgrammingAchievements = () => {
-  return (
-    <>
-      {/* <h2 className="head-text">
+// const CompetitiveProgrammingAchievements = () => {
+// return (
+// <>
+// {
+/* <h2 className="head-text">
         Competitive Programming <span>Achievements</span>
       </h2>
       <motion.div
@@ -218,13 +215,14 @@ const CompetitiveProgrammingAchievements = () => {
             Participated in Codegoda Programming Competition 2022 by Agoda.
           </li>
         </ul>
-      </motion.div> */}
-    </>
-  );
-};
+      </motion.div> */
+// }
+// </>
+// );
+// };
 
-export default AppWrap(
-  MotionWrap(CompetitiveProgrammingAchievements, "app__about"),
-  "achievements",
-  "app__whitebg"
-);
+// export default AppWrap(
+//   MotionWrap(CompetitiveProgrammingAchievements, "app__about"),
+//   "achievements",
+//   "app__whitebg"
+// );

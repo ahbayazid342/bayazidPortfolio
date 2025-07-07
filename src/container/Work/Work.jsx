@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { AiFillEye, AiFillGithub } from "react-icons/ai";
 import { motion } from "framer-motion";
 
@@ -7,50 +7,38 @@ import "./Work.scss";
 
 // Import the static image from the assets folder
 
-import biofloc from "../../assets/biofloc.PNG";
-import objectdetection from "../../assets/objectdetection.png";
 import portfolio from "../../assets/portfolioLandingPage.png";
-import ai from "../../assets/ai.png";
+import undercover from "../../assets/undercover.png";
+import techNews from "../../assets/tech news.png";
 
 // Hardcoded portfolio data with the same image
 const works = [
-  {
-    title: "IoT Project",
-    description:
-      "This is an IoT-based water quality (pH, temperature, TDS, ammonia, Dissolved Oxygen) monitoring system for biofloc. Machine learning is also applied to take decision about the water quality.",
-    imgUrl: biofloc,
-    projectLink:
-      "https://github.com/MAHIM-JU-CSE/Iot-based-biofloc-water-quality-monitoring-",
-    codeLink:
-      "https://github.com/MAHIM-JU-CSE/Iot-based-biofloc-water-quality-monitoring-",
-    tags: ["IoT"],
-  },
-  {
-    title: "Object Detection",
-    description:
-      "This is an object detection project using OpenCV, Tensorflow and cvlib. Underneath it uses YOLOv4 model trained on COCO dataset capable of detecting 80 common objects in context.",
-    imgUrl: objectdetection,
-    projectLink: "https://github.com/MAHIM-JU-CSE/Object_detection",
-    codeLink: "https://github.com/MAHIM-JU-CSE/Object_detection",
-    tags: ["Machine Learning"],
-  },
   {
     title: "Portfolio",
     description:
       "This is a web project using Reactjs, Framer motion, SCSS, and Emailjs. The site is designed fully responsive using media query. It is made to represent my academic and professional details",
     imgUrl: portfolio,
-    projectLink: "https://mahim-ju-cse.github.io/portfolio/",
-    codeLink: "https://github.com/MAHIM-JU-CSE/portfolio",
+    projectLink: "https://ahbayazid342.github.io/bayazidPortfolio/",
+    codeLink: "https://github.com/ahbayazid342/bayazidPortfolio",
     tags: ["Web App"],
   },
   {
-    title: "Conversational AI",
+    title: "Under Cover Game",
     description:
-      "This is a Conversational AI project leveraging the LLaMA 3.1 8B and Mistral 7B models, integrated through Ollama and OpenWebUI for robust and responsive natural language interactions.",
-    imgUrl: ai,
-    projectLink: "",
-    codeLink: "",
-    tags: ["Generative AI"],
+      "Under Cover Game is a fun social deduction web app where players guess words and uncover the undercover player. Built with TypeScript and React for a smooth, interactive experience.",
+    imgUrl: undercover,
+    projectLink: "https://ahbayazid342.github.io/UnderCoverGame/",
+    codeLink: "https://github.com/ahbayazid342/UnderCoverGame",
+    tags: ["Web App"],
+  },
+  {
+    title: "Daily Tech News & Mail Notifications",
+    description:
+      "A web app that delivers the latest tech news straight to your inbox every morning. Users can subscribe to get daily email notifications curated from top tech sources.",
+    imgUrl: techNews,
+    projectLink: "https://github.com/ahbayazid342/Daily-Tech-News",
+    codeLink: "https://github.com/ahbayazid342/Daily-Tech-News",
+    tags: ["Web App"],
   },
 ];
 
